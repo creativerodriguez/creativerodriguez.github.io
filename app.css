@@ -43,11 +43,15 @@ label {
 }
 
 */
+.counter {
+	color: #ffffff;
+}
 input
 {
     background: transparent;
     border: none;
     font-size: 20px;
+    text-align: center;
 }
 /*
  * Base structure
@@ -118,4 +122,14 @@ h1 {
 .placeholder img {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+.counter {
+  display: table-cell;
+  margin:1.5%;
+  font-size:18px;
+  background-color: #FF6F6F;
+  width:100px;
+  border-radius: 50%;
+  height:100px;
+  vertical-align: middle;
 }
