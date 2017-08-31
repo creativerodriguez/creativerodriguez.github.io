@@ -59,14 +59,14 @@ function calculateVotes() {
 								+ '"></h4><br/>'
 								+ '<small for="can' + (vote.id + 1)
 								+ '">Candidate ' + (vote.id + 1) + '</small>'
-								+ '<div class="text-muted">&nbsp<input name="name" id="verticle'
+								+ '<div class="text-muted"><input name="name" id="verticle'
 								+ (vote.id + 1) + '" value="' + vote.verticle
-								+ '">'
+								+ '"><br/>'
 								+'<label for="votes' + (vote.id + 1)
 								+ '"> Votes for ' + vote.name
-								+ '</label> <input class="btn-success" name="votes" id="vote_input'
+								+ '</label><br/><input class="btn-success" name="votes" id="vote_input'
 								+ (vote.id + 1) + '" value="' + vote.inputvalue
-								+ '"><output id="percent'
+								+ '"><br/><output id="percent'
 								+ (vote.id+1) + '"> Percentage : '
 								+  getPercent(inputvalue, percentTotal).toFixed(1) // percent.toFixed(1)
 								+ '%</output>'
