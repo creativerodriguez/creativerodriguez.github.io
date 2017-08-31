@@ -52,11 +52,11 @@ function calculateVotes() {
 						votesArray = window.votingData.voting[currentVoteCount];
 						percentTotal = votesArray.reduce(function(percentTotal, x) { return percentTotal + x; }, 0);						
 						total += parseInt(inputvalue);
-						vote.display = '<div class="col-6 col-sm-3 placeholder">'
-								+ '<img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">'
+						vote.display = '<div class="col-12 col-sm-12">'
+								+ '<img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">'
 								+ '<h4><input name="name" id="can'
 								+ (vote.id + 1) + '" value="' + vote.name
-								+ '"></h4>'
+								+ '"></h4><br/>'
 								+ '<small for="can' + (vote.id + 1)
 								+ '">Candidate ' + (vote.id + 1) + '</small>'
 								+ '<div class="text-muted">&nbsp<input name="name" id="verticle'
