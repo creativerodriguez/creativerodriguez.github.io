@@ -1,0 +1,121 @@
+/*
+Popular Vote Watcher
+Orlando Rodriguez
+app.css
+*/
+
+
+body {
+	padding: 25px;
+}
+#date {
+	width: 300px;
+	font-size: 14px;	
+}
+/*
+label {
+	margin-left: 10px;
+}
+.formdiv {
+    height:100%;
+    width:100%;
+    border:3px double blue;
+}
+
+.formsection {
+    height:100%;
+    width:98.5%;
+    border:1px solid gray;
+    margin: 10px 5px;
+}
+
+.section_title {
+    margin:-10px 0px -10px 5px;
+    background: rgba(205, 209, 237, 1);
+	float:left;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+.section_title_bg{
+	margin-left: 10px;
+    width: auto;
+
+}
+
+*/
+input
+{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+}
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+/*
+ * Typography
+ */
+
+h1 {
+  margin-bottom: 20px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 51px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  border-right: 1px solid #eee;
+}
+
+/* Sidebar navigation */
+.sidebar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+  margin-left: 0;
+}
+
+.sidebar .nav-link {
+  border-radius: 0;
+}
+
+/*
+ * Dashboard
+ */
+
+ /* Placeholders */
+.placeholders {
+  padding-bottom: 3rem;
+}
+
+.placeholder img {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}

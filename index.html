@@ -1,0 +1,54 @@
+<!doctype html>
+<!--
+Popular Vote Watcher
+Orlando Rodriguez
+index.html
+-->
+<html>
+<head>
+<meta charset="utf-8">
+<title>Popular Vote Watcher</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+<link rel="stylesheet" href="app.css" />
+</head>
+
+<body>
+	
+<div class="container-fluid">
+      <div class="row">
+	<form id="areaform">
+	<div class="formdiv">
+		<div class="formsection">
+			<main class="col-sm-9 ml-sm-auto col-md-10 pt-3" role="main">
+			<section class="row text-center placeholders">
+			<h1 id="heading">Election Calculator</h1>
+			<div id="candidatesDisplay">
+			</div>
+			</section>
+			</main>
+	<div id="votesDisplay">
+	</div>
+	</div>
+	<div class="formsection">
+	<div class="section_title_bg"><p class="section_title">Current Results</p></div>
+	<br/>
+		<label for="date">As of</label> <input id="date"><br/>
+		<label id="minutes">00</label>:<label id="seconds">00</label><br/>
+		<label for="totalvotes">Total Votes counted: </label> <output id="totalvotes"></output>
+		<br/>
+		<!-- dynamic input via javascript -->
+		<div id="results">
+
+		</div>
+	</div>
+</div>
+		<button id="btn" type="button" style="display:none;">Calculate</button>
+	</form>
+	
+      </div>
+    </div>
+<script src="voting.js"></script>
+<script src="app.js"></script>
+<script src="timer.js"></script>
+</body>
+</html>
